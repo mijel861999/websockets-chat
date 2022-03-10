@@ -1,0 +1,20 @@
+{
+  "name": "backend-websocket",
+  "version": "1.0.0",
+  "description": "A backend for a chat application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "websockets"
+  ],
+  "author": "Mijel <mijel.dev@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "socket.io": "^4.4.1"
+  }
+}
